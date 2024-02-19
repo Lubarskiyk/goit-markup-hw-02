@@ -44,8 +44,8 @@ button {
   cursor: pointer;
 }
 
-.header {
-}
+/* .header {
+} */
 .header-nav {
   color: #2e2f42;
 }
@@ -60,10 +60,10 @@ button {
 .logo-span {
   color: #4d5ae5;
 }
-.header-menu {
+/* .header-menu {
 }
 .header-menu-item {
-}
+} */
 .header-menu-title:hover {
   color: #404bbf;
 }
