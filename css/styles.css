@@ -34,6 +34,7 @@ h2 {
   text-transform: capitalize;
   line-height: 111%;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 h3 {
   font-size: 20px;
@@ -66,8 +67,7 @@ button {
 .header-menu {
   font-weight: 500;
 }
-/* .header-menu-item {
-} */
+
 .header-menu-title:hover {
   color: #404bbf;
 }
@@ -78,23 +78,47 @@ button {
 .header-contacts {
   font-style: normal;
 }
-.header-contacts > a:hover {
+.header-contact:hover,
+.header-contact:focus {
   color: #404bbf;
 }
 
 .hero {
   background-color: #2e2f42;
 }
+.hero-title {
+  text-align: center;
+}
 .hero-button {
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .team {
   background-color: #f4f4fd;
 }
+.team-title {
+  text-align: center;
+}
+.portfolio-title {
+  text-align: center;
+}
 .footer {
   background-color: #2e2f42;
-  color: #fff;
+}
+.footer-logo {
+  color: #4d5ae5;
+}
+.footer-logo-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
 }
