@@ -61,11 +61,12 @@ button {
 .logo-span {
   color: #2e2f42;
 }
-/* .header-menu {
+.header-menu {
+  font-weight: 500;
 }
-.header-menu-item {
+/* .header-menu-item {
 } */
-.header-menu-title:hover {
+*/ .header-menu-title:hover {
   color: #404bbf;
 }
 .header-menu-title:focus {
