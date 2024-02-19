@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   color: #434455;
   line-height: 150%;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
   background-color: #fff;
 }
 h1 {
@@ -55,10 +55,12 @@ button {
   font-size: 18px;
   line-height: 117%;
   text-transform: uppercase;
-  letter-spacing: 3%;
+  letter-spacing: 0, 03em;
+  font-weight: 700;
+  color: #4d5ae5;
 }
 .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 /* .header-menu {
 }
@@ -71,7 +73,9 @@ button {
   color: #404bbf;
   border-bottom: 4px solid;
 }
-
+.header-contacts {
+  font-style: normal;
+}
 .header-contacts a:hover {
   color: #404bbf;
 }
