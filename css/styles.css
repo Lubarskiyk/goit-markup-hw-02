@@ -73,7 +73,6 @@ button {
 }
 .header-menu-title:focus {
   color: #404bbf;
-  border-bottom: 4px solid;
 }
 .header-contacts {
   font-style: normal;
