@@ -1,6 +1,8 @@
-a,
-a:hover {
+a {
   color: inherit;
+  text-decoration: none;
+}
+a:hover {
   text-decoration: none;
 }
 a:focus,
@@ -66,7 +68,7 @@ button {
 }
 /* .header-menu-item {
 } */
-*/ .header-menu-title:hover {
+.header-menu-title:hover {
   color: #404bbf;
 }
 .header-menu-title:focus {
@@ -76,9 +78,9 @@ button {
 .header-contacts {
   font-style: normal;
 }
-/* .header-contacts > a:hover {
+.header-contacts > a:hover {
   color: #404bbf;
-} */
+}
 
 .hero {
   background-color: #2e2f42;
