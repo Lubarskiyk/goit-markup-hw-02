@@ -26,6 +26,7 @@ h1 {
   font-size: 56px;
   line-height: 107%;
   color: #fff;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -118,6 +119,12 @@ button {
   background-color: #2e2f42;
 }
 .footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 117%;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 700;
   color: #4d5ae5;
 }
 .footer-logo-span {
